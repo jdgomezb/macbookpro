@@ -33,3 +33,8 @@ Just the things that I like to install and always forget when I get a new mac.
 ```
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 ```
+
+* Prevent script files from being executed from an NPM package dependency
+```
+npm config set ignore-scripts true
+```
