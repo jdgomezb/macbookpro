@@ -38,3 +38,8 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 ```
 npm config set ignore-scripts true
 ```
+
+* Increase magic mouse's tracking speed
+```
+defaults write -g com.apple.mouse.scaling  8.0
+```
